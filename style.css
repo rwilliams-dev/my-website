@@ -1,0 +1,169 @@
+body {
+    background-color: #dedcda;
+    font-family: Georgia, serif;
+    margin: 0;
+    padding:0;
+}
+.header {
+    background-color:#1a1a2e;
+    color: white;
+    padding: 40px;
+    margin-bottom:30px
+}
+h1{
+    color:e0a04f;
+    font-size: 42px;
+    margin:0;
+}
+
+.subtitle {
+    color: #c084fc;
+    font-size: 18px;
+    font-style: italic;
+    margin-top:10px;
+}
+
+.section {
+    background-color:white;
+    margin:20px 40px;
+    padding:30px;
+    border-left: 5px solid #e0a04f;
+}
+
+h2 {
+    color:#1a1a2e
+    font-size: 24px;
+}
+
+p {
+    color: #444;
+    font-size: 16px;
+    line-height:1.8
+}
+
+a {
+    color:#e0a04f
+    font-weight: bold;
+}
+
+.highlight {
+    background-color: #e0a04f;
+    padding: 10px;
+    color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a2e;
+    padding: 20px; 40;
+}
+
+.logo {
+    color: #e0a04f;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 16px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #e0a04f;
+}
+
+.services-section {
+    padding: 40px;
+}
+
+.services-section h2 {
+    color: #1a1a2e;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.services-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-card h3 {
+    flex: 1;
+    background-color: white;
+    padding: 30px;
+    border-left: 5px solid #e0a04f;
+    min-width: 200px;
+}
+
+.service-card p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+#greet-btn {
+    background-color: #e0a04f;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#greet-btn:hover {
+    background-color: #c8873a;
+}
+
+#color-btn {
+    background-color: #c084fc;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#income-tracker {
+  margin-top: 30px;
+}
+
+#income-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  margin-right: 10px;
+  border: 2px solid #e0a04f;
+}
+
+#add-income {
+  background-color: #1a1a2e;
+  color: #e0a04f;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#income-list p {
+  color: #1a1a2e;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+#total-display {
+  font-size: 20px;
+  color: #1a1a2e;
+  font-weight: bold;
+  margin-top: 15px;
+  border-top: 2px solid #e0a04f;
+  padding-top: 10px;
+}
